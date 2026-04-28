@@ -24,7 +24,7 @@ The `stock_market` directory contains two folders, one for the empirical data ga
 
 #### OFC
 
-The OFC directory contains the code needed to create the core of the OFC. It is organised with many packages (with `__init__.py`files). All those modules are then imported, to run all the code and display all the figures in a notebook. See directly the notebook to view how the figures were obtained.
+The OFC directory contains the code needed to create the core of the OFC simulations. It is organised with many packages (with `__init__.py`files). All those modules are then imported, to run all the code and display all the figures in a notebook. See directly the notebook to view how the figures were obtained.
 
 
 ## Running the scripts in stock_market
