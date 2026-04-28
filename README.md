@@ -19,16 +19,17 @@ Then, activate it and install the packages via :
 The repository is made of two main directories: `OFC` and `stock_market`, corresponding to the two models studied experimentally in the project. 
 
 
-### stock_market
+#### stock_market
 The `stock_market` directory contains two folders, one for the empirical data gathered on the market and download with Yahoo Finance (`real_data`), and one implementing the Cont-Bouchaud model used to obtain the simulated theoretical results.
 
-### OFC
+#### OFC
 
-XXX Gab écris ce que tu veux là
+The OFC directory contains the code needed to create the core of the OFC. It is organised with many packages (with `__init__.py`files). All those modules are then imported, to run all the code and display all the figures in a notebook. See directly the notebook to view how the figures were obtained.
 
-## Running the scripts
 
-Each of those folders contains the implementation of our models, and more generally all the code necessary to obtain the figures presented in the report (and even more). To run those scripts you need to go to the root directory of the project, and use the `run.py` file with a specified option (list below):
+## Running the scripts in stock_market
+
+The `stock_market` folder contains all the scripts necessary to obtain the figures presented in the corresponding section of the report (and even more). To run those scripts you need to go to the root directory of the project, and use the `run.py` file with a specified option (list below):
 
 `python run.py [name_of_the_option]`
 
