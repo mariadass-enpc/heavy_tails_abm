@@ -3,7 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 from models import ContBouchaudModel
 
 # Simulate a large dataset

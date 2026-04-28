@@ -2,7 +2,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 from models import ContBouchaudModel
 
 c_values = np.linspace(0.1, 3.0, 40)
